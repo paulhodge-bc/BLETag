@@ -26,6 +26,7 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.IBinder;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBar;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -106,6 +107,10 @@ public class AdvertiserFragment extends Fragment implements View.OnClickListener
                 Toast.makeText(getActivity(), errorMessage, Toast.LENGTH_LONG).show();
             }
         };
+
+
+        ActionBar BLEActionBar = ((MainActivity)getActivity()).getSupportActionBar();
+        BLEActionBar.setTitle("Proximity Tag");
     }
 
     private class buttonTask extends TimerTask {

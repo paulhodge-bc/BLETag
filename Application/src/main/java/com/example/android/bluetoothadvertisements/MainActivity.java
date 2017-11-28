@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
@@ -46,6 +47,7 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
         setTitle(R.string.activity_main_title);
         Toolbar BLEtoolbar = (Toolbar) findViewById(R.id.ble_toolbar);
         setSupportActionBar(BLEtoolbar);
+
 
         if (savedInstanceState == null) {
 
@@ -117,6 +119,11 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
         }
     }
 
+    @Override
+    public ActionBar getSupportActionBar() {
+        return super.getSupportActionBar();
+    }
+
     private void setupLoginFragment() {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
@@ -129,8 +136,8 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
     public void onLoginSubmitted(String username, String pwd) {
         View view = this.getCurrentFocus();
         if (view != null) {
-            InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
-            imm.hideSoftInputFromWindow(view.getWindowToken(),0);
+            InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+            imm.hideSoftInputFromWindow(view.getWindowToken(), 0);
         }
         //Log.d(TAG, username + " " + pwd);
         setupFragments();

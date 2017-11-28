@@ -3,6 +3,7 @@ package com.example.android.bluetoothadvertisements;
 import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v7.app.ActionBar;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -32,6 +33,9 @@ public class LoginFragment extends Fragment implements View.OnClickListener {
 
         txt_un = (EditText) view.findViewById(R.id.txt_login_name);
         txt_pwd = (EditText) view.findViewById(R.id.txt_login_pwd);
+
+        ActionBar BLEActionBar = ((MainActivity)getActivity()).getSupportActionBar();
+        BLEActionBar.setTitle("Log In");
 
         // Inflate the layout for this fragment
         return view;
