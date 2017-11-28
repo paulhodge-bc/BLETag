@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -32,7 +33,7 @@ import android.widget.Toast;
 /**
  * Setup display fragments and ensure the device supports Bluetooth.
  */
-public class MainActivity extends FragmentActivity implements LoginFragment.OnLoginSubmittedListener {
+public class MainActivity extends AppCompatActivity implements LoginFragment.OnLoginSubmittedListener {
 
     private BluetoothAdapter mBluetoothAdapter;
     private static final String TAG = MainActivity.class.getSimpleName();
