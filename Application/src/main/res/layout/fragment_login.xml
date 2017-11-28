@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.bluetoothadvertisements.LoginFragment">
+
+        <LinearLayout
+            android:id="@+id/login_wrapper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="100dp"
+            android:paddingBottom="20dp"
+            android:layout_centerHorizontal="true">
+
+
+            <EditText
+                android:id = "@+id/txt_login_name"
+                android:hint="@string/login_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:inputType="text"
+                android:textColor="@color/textColorLogin" />
+
+            <EditText
+                android:id = "@+id/txt_login_pwd"
+                android:hint="@string/login_pwd"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:inputType="textPassword"
+                android:textColor="@color/textColorLogin"/>
+
+            <Button
+                android:text="@string/login_btn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_login"
+                android:elevation="10dp"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

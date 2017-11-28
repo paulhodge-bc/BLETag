@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ble_not_icon_1.png",
+        "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\drawable-xhdpi\\ble_not_icon_1.png"
+    },
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_launcher.png",
+        "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ic_action_refresh.png",
+        "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\drawable-xhdpi\\ic_action_refresh.png"
+    }
+]

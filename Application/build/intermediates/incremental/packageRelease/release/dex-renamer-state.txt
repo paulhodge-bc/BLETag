@@ -1,0 +1,4 @@
+#Tue Nov 21 17:09:41 CST 2017
+base.0=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex

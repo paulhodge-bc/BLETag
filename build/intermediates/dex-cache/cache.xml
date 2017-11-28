@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v13-24.1.1.aar\2812ce95c9600c4f58b3ed7cb7344c5e\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="327f68d58bb39fb8b585150596b313541f8fdb87">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\preDex\release\1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_b0cedc6c5ffd21495b387c349edb244465006d46.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.android\build-cache\b2c11d9d180ed17f0df27d80d3586d6fdbf75d4c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="327f68d58bb39fb8b585150596b313541f8fdb87">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\pre-dexed\debug\classes_729e399593a6fe5b50f5f67c2f782854609392f0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\cardview-v7-24.1.1.aar\ec8d9a7d585587ced0adaec98458b4b7\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\preDex\release\8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.android\build-cache\00e0bc37d354f6e02fd97a1870c4d2e10482dc47\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\pre-dexed\debug\classes_265134726f616781adb5bbb105ba7600eb0e6610.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\4a7cd65d316eb00750c4504a7f5e282a\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\preDex\release\5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_ca4afc360bcb96d9cf1c8d076f3bf7929af59396\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\20355b6cb4367949947514afb4ec73a8\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\preDex\release\6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.android\build-cache\f782fc95820f6fb340477fa1c54e3210772312f8\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\pre-dexed\debug\classes_a6fca589efeb52482c36abb61c10c212c4d4183e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.android\build-cache\67ca1c746d19e31be96d00c3fa6a88b64111976d\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\pre-dexed\debug\classes_801aa4d8710f0ca1207a71c558b450d4896462c8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.android\build-cache\00e0bc37d354f6e02fd97a1870c4d2e10482dc47\output\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_d320ffc56dd07ab0873eeab911d40848bbfbccb1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="404148d101021d1bb29146c4dcd3f227e462ec16">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_7b644bf8dab42ab2dd2b880132382d1dfef66b94\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\preDex\release\9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.android\build-cache\b2c11d9d180ed17f0df27d80d3586d6fdbf75d4c\output\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca74722504f90166103d01edcdfdb93192eb1cba">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_0eaa98ffdf650fa3fa4f1e4f3893c2c5780fed41.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.android\build-cache\0b23f2d43f208ea7cce8c2259b830a5924f6f673\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4add8aa95c9f4e9a2ad64b7e2bf08e97e28955c1">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\pre-dexed\debug\classes_9f62f2dc42e438d0d7ba049cd96dfdc33d1aca18.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\559121b75ea8d10c29fadd2bdc8320f0\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\preDex\release\3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.android\build-cache\9aa1d642e4949a34736bc900dc94d4136ba03b1b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\pre-dexed\debug\classes_c90e9b6bf300a2c81d1fd17ab782baa211b20ada.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\beca8979c038f42ec843829a843808e9\jars\classes.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\preDex\release\4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v13-24.1.1.aar\2812ce95c9600c4f58b3ed7cb7344c5e\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="ca74722504f90166103d01edcdfdb93192eb1cba">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\preDex\release\2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\20355b6cb4367949947514afb4ec73a8\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        min-sdk-version="21"
+        optimize="true"
+        revision="26.0.2"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\build\intermediates\transforms\preDex\release\7.jar" />
+    </item>
+
+</items>

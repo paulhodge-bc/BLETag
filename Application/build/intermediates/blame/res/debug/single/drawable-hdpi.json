@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ble_not_icon_2.png",
+        "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\drawable-hdpi\\ble_not_icon_2.png"
+    },
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\tile.9.png",
+        "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\drawable-hdpi\\tile.9.png"
+    },
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_launcher.png",
+        "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\drawable-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ble_not_icon_1.png",
+        "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\drawable-hdpi\\ble_not_icon_1.png"
+    },
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ble_not_icon.png",
+        "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\drawable-hdpi\\ble_not_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ic_action_refresh.png",
+        "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\drawable-hdpi\\ic_action_refresh.png"
+    }
+]

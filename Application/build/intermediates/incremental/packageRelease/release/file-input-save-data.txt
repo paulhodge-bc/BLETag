@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Tue Nov 21 17:09:42 CST 2017
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\release\\0
+0.path=classes.dex
+0.set=DEX
+count=1
