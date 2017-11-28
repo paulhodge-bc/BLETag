@@ -31,21 +31,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\values-ta-rIN_values-ta-rIN.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\paul__000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\559121b75ea8d10c29fadd2bdc8320f0\\res\\values-ta-rIN\\values-ta-rIN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,169,277,400,505,620,709,816,942,1023,1103,1185,1287,1391,1488,1598,1700,1807,1926,2026",
-                        "endColumns": "113,107,122,104,114,88,106,125,80,79,81,101,103,96,109,101,106,118,99,100",
-                        "endOffsets": "164,272,395,500,615,704,811,937,1018,1098,1180,1282,1386,1483,1593,1695,1802,1921,2021,2122"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\values-ky-rKG_values-ky-rKG.arsc.flat",
             "map": [
                 {
@@ -56,6 +41,21 @@
                         "startOffsets": "55,159,267,390,485,604,688,795,912,990,1069,1150,1260,1367,1465,1571,1678,1779,1903,2006",
                         "endColumns": "103,107,122,94,118,83,106,116,77,78,80,109,106,97,105,106,100,123,102,100",
                         "endOffsets": "154,262,385,480,599,683,790,907,985,1064,1145,1255,1362,1460,1566,1673,1774,1898,2001,2102"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\values-ta-rIN_values-ta-rIN.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\paul__000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\559121b75ea8d10c29fadd2bdc8320f0\\res\\values-ta-rIN\\values-ta-rIN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,169,277,400,505,620,709,816,942,1023,1103,1185,1287,1391,1488,1598,1700,1807,1926,2026",
+                        "endColumns": "113,107,122,104,114,88,106,125,80,79,81,101,103,96,109,101,106,118,99,100",
+                        "endOffsets": "164,272,395,500,615,704,811,937,1018,1098,1180,1282,1386,1483,1593,1695,1802,1921,2021,2122"
                     }
                 }
             ]
@@ -246,21 +246,6 @@
             ]
         },
         {
-            "outputFile": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\values-en-rAU_values-en-rAU.arsc.flat",
-            "map": [
-                {
-                    "source": "C:\\Users\\paul__000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\559121b75ea8d10c29fadd2bdc8320f0\\res\\values-en-rAU\\values-en-rAU.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,267,390,490,598,682,782,897,974,1050,1132,1235,1339,1438,1543,1646,1750,1869,1969",
-                        "endColumns": "103,107,122,99,107,83,99,114,76,75,81,102,103,98,104,102,103,118,99,100",
-                        "endOffsets": "154,262,385,485,593,677,777,892,969,1045,1127,1230,1334,1433,1538,1641,1745,1864,1964,2065"
-                    }
-                }
-            ]
-        },
-        {
             "outputFile": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\values-my-rMM_values-my-rMM.arsc.flat",
             "map": [
                 {
@@ -271,6 +256,21 @@
                         "startOffsets": "55,164,272,397,502,619,712,824,953,1031,1110,1196,1319,1431,1533,1659,1770,1880,2003,2103",
                         "endColumns": "108,107,124,104,116,92,111,128,77,78,85,122,111,101,125,110,109,122,99,100",
                         "endOffsets": "159,267,392,497,614,707,819,948,1026,1105,1191,1314,1426,1528,1654,1765,1875,1998,2098,2199"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\values-en-rAU_values-en-rAU.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\paul__000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\559121b75ea8d10c29fadd2bdc8320f0\\res\\values-en-rAU\\values-en-rAU.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,159,267,390,490,598,682,782,897,974,1050,1132,1235,1339,1438,1543,1646,1750,1869,1969",
+                        "endColumns": "103,107,122,99,107,83,99,114,76,75,81,102,103,98,104,102,103,118,99,100",
+                        "endOffsets": "154,262,385,485,593,677,777,892,969,1045,1127,1230,1334,1433,1538,1641,1745,1864,1964,2065"
                     }
                 }
             ]

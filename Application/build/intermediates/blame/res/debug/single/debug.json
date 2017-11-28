@@ -76,12 +76,12 @@
         "source": "C:\\Users\\paul__000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\559121b75ea8d10c29fadd2bdc8320f0\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\paul__000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\559121b75ea8d10c29fadd2bdc8320f0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "C:\\Users\\paul__000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\559121b75ea8d10c29fadd2bdc8320f0\\res\\drawable-mdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_selectall_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\paul__000\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-24.1.1.aar\\559121b75ea8d10c29fadd2bdc8320f0\\res\\drawable-hdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",

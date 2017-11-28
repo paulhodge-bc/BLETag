@@ -1,28 +1,4 @@
-#Tue Apr 25 12:58:28 CDT 2017
-renamed.8=classes6.dex
-renamed.7=classes2.dex
-renamed.6=classes9.dex
-renamed.5=classes5.dex
-renamed.4=classes8.dex
-renamed.3=classes3.dex
-renamed.2=classes.dex
-renamed.1=classes7.dex
-base.8=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_c90e9b6bf300a2c81d1fd17ab782baa211b20ada
-renamed.0=classes4.dex
-base.7=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_729e399593a6fe5b50f5f67c2f782854609392f0
-base.6=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-24.1.1_b0cedc6c5ffd21495b387c349edb244465006d46
-base.5=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_a6fca589efeb52482c36abb61c10c212c4d4183e
-base.4=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-24.1.1_d320ffc56dd07ab0873eeab911d40848bbfbccb1
-base.3=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_801aa4d8710f0ca1207a71c558b450d4896462c8
-base.2=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_265134726f616781adb5bbb105ba7600eb0e6610
-base.1=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-24.1.1_0eaa98ffdf650fa3fa4f1e4f3893c2c5780fed41
-base.0=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9f62f2dc42e438d0d7ba049cd96dfdc33d1aca18
-file.8=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_c90e9b6bf300a2c81d1fd17ab782baa211b20ada\\classes.dex
-file.7=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_729e399593a6fe5b50f5f67c2f782854609392f0\\classes.dex
-file.6=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\support-annotations-24.1.1_b0cedc6c5ffd21495b387c349edb244465006d46\\classes.dex
-file.5=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_a6fca589efeb52482c36abb61c10c212c4d4183e\\classes.dex
-file.4=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-24.1.1_d320ffc56dd07ab0873eeab911d40848bbfbccb1\\classes.dex
-file.3=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_801aa4d8710f0ca1207a71c558b450d4896462c8\\classes.dex
-file.2=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_265134726f616781adb5bbb105ba7600eb0e6610\\classes.dex
-file.1=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\internal_impl-24.1.1_0eaa98ffdf650fa3fa4f1e4f3893c2c5780fed41\\classes.dex
-file.0=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\classes_9f62f2dc42e438d0d7ba049cd96dfdc33d1aca18\\classes.dex
+#Tue Nov 28 12:29:12 CST 2017
+base.0=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\11
+path.0=classes.dex
+renamed.0=classes.dex

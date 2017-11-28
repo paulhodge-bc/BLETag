@@ -21,14 +21,19 @@
         android:layout_height="fill_parent"
         android:id="@+id/sample_main_layout">
 
-    <!--<android.support.v7.widget.Toolbar-->
-        <!--android:id="@+id/ble_toolbar"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="?attr/actionBarSize"-->
-        <!--android:background="?attr/colorPrimary"-->
-        <!--android:elevation="4dp"-->
-        <!--android:theme="@style/ThemeOverlay.AppCompat.ActionBar"-->
-        <!--/>-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/ble_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"/>
+
+    <FrameLayout
+        android:id="@+id/advertiser_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
     <!--<FrameLayout
         android:id="@+id/dim_buttons_container"
         android:layout_weight="1"
@@ -43,10 +48,6 @@
 
         </FrameLayout>-->
 
-    <FrameLayout
-        android:id="@+id/advertiser_fragment_container"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
     <!--<fragment-->
         <!--android:name="com.example.android.bluetoothadvertisements.ScannerFragment"-->

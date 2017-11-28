@@ -29,6 +29,7 @@ import android.view.View;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.TextView;
 import android.widget.Toast;
+import android.support.v7.widget.Toolbar;
 
 /**
  * Setup display fragments and ensure the device supports Bluetooth.
@@ -43,6 +44,8 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         setTitle(R.string.activity_main_title);
+        Toolbar BLEtoolbar = (Toolbar) findViewById(R.id.ble_toolbar);
+        setSupportActionBar(BLEtoolbar);
 
         if (savedInstanceState == null) {
 
