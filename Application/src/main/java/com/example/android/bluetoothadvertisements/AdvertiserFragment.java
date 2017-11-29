@@ -238,7 +238,9 @@ public class AdvertiserFragment extends Fragment implements View.OnClickListener
     @Override
     public void onStop() {
         super.onStop();
-        getContext().unbindService(bleConnection);
+        if (isBound) {
+            getContext().unbindService(bleConnection);
+        }
         isBound = false;
     }
 

@@ -20,6 +20,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothManager;
 import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentActivity;
@@ -29,6 +30,8 @@ import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
@@ -136,7 +139,17 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
     }
 
     @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.actionbar_menu, menu);
+        return true;
+    }
+
+    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        if (mDrawerToggle.onOptionsItemSelected(item)) {
+            return true;
+        }
         switch (item.getItemId()) {
             case R.id.action_settings:
                 // User chose the "Settings" item, show the app settings UI...
@@ -158,6 +171,19 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
     @Override
     public ActionBar getSupportActionBar() {
         return super.getSupportActionBar();
+    }
+
+    @Override
+    protected void onPostCreate(Bundle savedInstanceState) {
+        super.onPostCreate(savedInstanceState);
+        // Sync the toggle state after onRestoreInstanceState has occurred.
+        mDrawerToggle.syncState();
+    }
+
+    @Override
+    public void onConfigurationChanged(Configuration newConfig) {
+        super.onConfigurationChanged(newConfig);
+        mDrawerToggle.onConfigurationChanged(newConfig);
     }
 
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
@@ -193,6 +219,12 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
         fragmentList = getResources().getStringArray(R.array.fragment_array);
         fragmentDrawerLayout = (DrawerLayout) findViewById(R.id.main_drawer_layout);
         fragmentDrawerList = (NavigationView) findViewById(R.id.main_navigation);
+        mDrawerToggle = new ActionBarDrawerToggle(this,
+                fragmentDrawerLayout,
+                R.string.drawer_open,
+                R.string.drawer_close);
+
+        fragmentDrawerLayout.setDrawerListener(mDrawerToggle);
 
         fragmentDrawerList.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
             @Override
@@ -225,7 +257,8 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
         setSupportActionBar(BLEtoolbar);
         ActionBar BLEActionBar = getSupportActionBar();
         BLEActionBar.setTitle("BLETag");
-        BLEActionBar.setDisplayOptions(R.menu.actionbar_menu);
+        BLEActionBar.setHomeButtonEnabled(true);
+        BLEActionBar.setDisplayHomeAsUpEnabled(true);
     }
 
     private void setupFragments() {

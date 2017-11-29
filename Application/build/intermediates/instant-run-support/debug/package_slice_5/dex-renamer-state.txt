@@ -1,4 +1,4 @@
-#Tue Nov 28 17:18:04 CST 2017
-base.0=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\25
+#Tue Nov 28 18:27:17 CST 2017
+base.0=C\:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\transforms\\dexMerger\\debug\\44
 path.0=classes.dex
 renamed.0=classes.dex
