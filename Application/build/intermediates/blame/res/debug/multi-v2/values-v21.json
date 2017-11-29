@@ -4,6 +4,25 @@
             "outputFile": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\paul__000\\.gradle\\caches\\transforms-1\\files-1.1\\design-24.1.1.aar\\e0a81a7b5c31432c4b093fbf6b5bc3f6\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "244"
+                    },
+                    "to": {
+                        "startLines": "262",
+                        "startColumns": "4",
+                        "startOffsets": "18964",
+                        "endLines": "264",
+                        "endColumns": "12",
+                        "endOffsets": "19153"
+                    }
+                },
+                {
                     "source": "C:\\Users\\paul__000\\AndroidStudioProjects\\BLETag\\Application\\src\\main\\res\\values-v21\\base-colors.xml",
                     "from": {
                         "startLines": "19,20,22,21",

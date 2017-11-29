@@ -42,7 +42,6 @@
             android:layout_alignParentBottom="true"
             android:layout_centerHorizontal="true">
 
-
             <TextView
                 android:text="@string/broadcast_device"
                 android:layout_width="wrap_content"
@@ -84,6 +83,7 @@
             android:enabled="false"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:elevation="2dp"
             android:id="@+id/btn_down"
             android:layout_marginTop="81dp"
             android:layout_below="@+id/btn_up"
@@ -94,8 +94,9 @@
             android:text="@string/btn_up_txt"
             android:textSize="60sp"
             android:enabled="false"
-            android:layout_width="wrap_content"
+            android:layout_width="100dp"
             android:layout_height="100dp"
+            android:elevation="2dp"
             android:id="@+id/btn_up"
             android:layout_marginTop="81dp"
             android:layout_alignStart="@+id/btn_down"/>

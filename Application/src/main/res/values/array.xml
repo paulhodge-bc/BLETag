@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fragment_array">
+        <item>Proximity Tag</item>
+        <item>Devices</item>
+        <!--<item>Command</item>-->
+    </string-array>
+</resources>

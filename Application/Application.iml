@@ -128,8 +128,10 @@
     <orderEntry type="library" name="com.android.support:support-vector-drawable-24.1.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-v4-24.1.1" level="project" />
     <orderEntry type="library" name="com.android.support:animated-vector-drawable-24.1.1" level="project" />
+    <orderEntry type="library" name="com.android.support:recyclerview-v7-24.1.1" level="project" />
     <orderEntry type="library" name="com.android.support:appcompat-v7-24.1.1" level="project" />
     <orderEntry type="library" name="com.android.support:support-v13-24.1.1" level="project" />
+    <orderEntry type="library" name="com.android.support:design-24.1.1" level="project" />
     <orderEntry type="library" name="com.android.support:cardview-v7-24.1.1" level="project" />
     <orderEntry type="library" name="android-android-24" level="project" />
   </component>

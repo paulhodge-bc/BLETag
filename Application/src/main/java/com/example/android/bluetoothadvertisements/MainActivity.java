@@ -21,14 +21,20 @@ import android.bluetooth.BluetoothManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
+import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBar;
+import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.inputmethod.InputMethodManager;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.support.v7.widget.Toolbar;
@@ -41,14 +47,23 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
     private BluetoothAdapter mBluetoothAdapter;
     private static final String TAG = MainActivity.class.getSimpleName();
 
+    private String[] fragmentList;
+    private DrawerLayout fragmentDrawerLayout;
+    private NavigationView fragmentDrawerList;
+    private ActionBarDrawerToggle mDrawerToggle;
+
+    private CharSequence mDrawerTitle;
+    private CharSequence mTitle;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
         setTitle(R.string.activity_main_title);
-        Toolbar BLEtoolbar = (Toolbar) findViewById(R.id.ble_toolbar);
-        setSupportActionBar(BLEtoolbar);
 
+        setupNavDrawer();
+        setupToolbar();
 
         if (savedInstanceState == null) {
 
@@ -145,11 +160,19 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
         return super.getSupportActionBar();
     }
 
+    private class DrawerItemClickListener implements ListView.OnItemClickListener {
+        @Override
+        public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+            // Swap fragments
+//            selectItem(position);
+        }
+    }
+
     private void setupLoginFragment() {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
         LoginFragment loginFragment = new LoginFragment();
-        transaction.replace(R.id.advertiser_fragment_container, loginFragment);
+        transaction.replace(R.id.main_fragment_container, loginFragment);
 
         transaction.commit();
     }
@@ -164,6 +187,47 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
         setupFragments();
     }
 
+    private void setupNavDrawer() {
+        // Get navigation layout and list
+        mTitle = mDrawerTitle = getTitle();
+        fragmentList = getResources().getStringArray(R.array.fragment_array);
+        fragmentDrawerLayout = (DrawerLayout) findViewById(R.id.main_drawer_layout);
+        fragmentDrawerList = (NavigationView) findViewById(R.id.main_navigation);
+
+        fragmentDrawerList.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
+            @Override
+            public boolean onNavigationItemSelected(MenuItem menuItem) {
+
+//                Fragment f = null;
+//                int itemId = menuItem.getItemId();
+//
+//                if (itemId == R.id.refresh) {
+//                    f = new RefreshFragment();
+//                } else if (itemId == R.id.stop) {
+//                    f = new StopFragment();
+//                }
+//
+//                if (f != null) {
+//                    FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+//                    transaction.replace(R.id.frame, f);
+//                    transaction.commit();
+//                    drawerLayout.closeDrawers();
+//                    return true;
+//                }
+
+                return false;
+            }
+        });
+    }
+
+    private void setupToolbar() {
+        Toolbar BLEtoolbar = (Toolbar) findViewById(R.id.ble_toolbar);
+        setSupportActionBar(BLEtoolbar);
+        ActionBar BLEActionBar = getSupportActionBar();
+        BLEActionBar.setTitle("BLETag");
+        BLEActionBar.setDisplayOptions(R.menu.actionbar_menu);
+    }
+
     private void setupFragments() {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
 
@@ -173,7 +237,7 @@ public class MainActivity extends AppCompatActivity implements LoginFragment.OnL
         transaction.replace(R.id.scanner_fragment_container, scannerFragment);*/
 
         AdvertiserFragment advertiserFragment = new AdvertiserFragment();
-        transaction.replace(R.id.advertiser_fragment_container, advertiserFragment);
+        transaction.replace(R.id.main_fragment_container, advertiserFragment);
 
         transaction.commit();
     }

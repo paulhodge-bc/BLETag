@@ -4,9 +4,11 @@ ADDED from C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\src\main\
 INJECTED from C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\src\main\AndroidManifest.xml:17:1-48:12
 INJECTED from C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\src\main\AndroidManifest.xml:17:1-48:12
 MERGED from [com.android.support:support-v13:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v13-24.1.1.aar\2812ce95c9600c4f58b3ed7cb7344c5e\AndroidManifest.xml:17:1-27:12
+MERGED from [com.android.support:design:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\design-24.1.1.aar\e0a81a7b5c31432c4b093fbf6b5bc3f6\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\559121b75ea8d10c29fadd2bdc8320f0\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\beca8979c038f42ec843829a843808e9\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\4a7cd65d316eb00750c4504a7f5e282a\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:recyclerview-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.1.1.aar\3dc0e5ad608c62ae3289df326d7126b5\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\20355b6cb4367949947514afb4ec73a8\AndroidManifest.xml:17:1-27:12
 MERGED from [com.android.support:cardview-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\cardview-v7-24.1.1.aar\ec8d9a7d585587ced0adaec98458b4b7\AndroidManifest.xml:17:1-24:12
 INJECTED from C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\src\main\AndroidManifest.xml:17:1-48:12
@@ -35,6 +37,8 @@ application
 ADDED from C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\src\main\AndroidManifest.xml:25:5-46:19
 MERGED from [com.android.support:support-v13:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v13-24.1.1.aar\2812ce95c9600c4f58b3ed7cb7344c5e\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-v13:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v13-24.1.1.aar\2812ce95c9600c4f58b3ed7cb7344c5e\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\design-24.1.1.aar\e0a81a7b5c31432c4b093fbf6b5bc3f6\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\design-24.1.1.aar\e0a81a7b5c31432c4b093fbf6b5bc3f6\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\559121b75ea8d10c29fadd2bdc8320f0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\559121b75ea8d10c29fadd2bdc8320f0\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\beca8979c038f42ec843829a843808e9\AndroidManifest.xml:22:5-20
@@ -83,12 +87,16 @@ INJECTED from C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\src\ma
 INJECTED from C:\Users\paul__000\AndroidStudioProjects\BLETag\Application\src\main\AndroidManifest.xml
 MERGED from [com.android.support:support-v13:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v13-24.1.1.aar\2812ce95c9600c4f58b3ed7cb7344c5e\AndroidManifest.xml:21:5-23:55
 MERGED from [com.android.support:support-v13:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v13-24.1.1.aar\2812ce95c9600c4f58b3ed7cb7344c5e\AndroidManifest.xml:21:5-23:55
+MERGED from [com.android.support:design:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\design-24.1.1.aar\e0a81a7b5c31432c4b093fbf6b5bc3f6\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:design:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\design-24.1.1.aar\e0a81a7b5c31432c4b093fbf6b5bc3f6\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\559121b75ea8d10c29fadd2bdc8320f0\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\appcompat-v7-24.1.1.aar\559121b75ea8d10c29fadd2bdc8320f0\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\beca8979c038f42ec843829a843808e9\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-24.1.1.aar\beca8979c038f42ec843829a843808e9\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\4a7cd65d316eb00750c4504a7f5e282a\AndroidManifest.xml:21:5-43
 MERGED from [com.android.support:support-vector-drawable:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-24.1.1.aar\4a7cd65d316eb00750c4504a7f5e282a\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.1.1.aar\3dc0e5ad608c62ae3289df326d7126b5\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-24.1.1.aar\3dc0e5ad608c62ae3289df326d7126b5\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\20355b6cb4367949947514afb4ec73a8\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-v4:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\support-v4-24.1.1.aar\20355b6cb4367949947514afb4ec73a8\AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:cardview-v7:24.1.1] C:\Users\paul__000\.gradle\caches\transforms-1\files-1.1\cardview-v7-24.1.1.aar\ec8d9a7d585587ced0adaec98458b4b7\AndroidManifest.xml:20:5-43

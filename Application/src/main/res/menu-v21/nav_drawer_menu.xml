@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_proximitytag"
+            android:title="@string/nav_proximitytag" />
+        <item android:id="@+id/nav_devices"
+            android:title="@string/nav_devices" />
+        <item android:id="@+id/nav_commands"
+            android:title="@string/nav_commands" />
+    </group>
+</menu>
